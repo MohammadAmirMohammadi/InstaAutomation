@@ -63,11 +63,11 @@ class insta:
 
 
 
-instaa = insta("amir.mo790","@mir0028M")
+instaa = insta("user","pass")#your user pass
 instaa.login()
 time.sleep(5)
 
-instaa.search("مهندس_عمران")
+instaa.search("tag")#your tag
 instaa.like()
 
 
